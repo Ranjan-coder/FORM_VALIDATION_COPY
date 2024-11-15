@@ -1,0 +1,87 @@
+.container {
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .addButton {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .addButton:hover {
+    background-color: #218838;
+  }
+  
+  .userList {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .userListItem {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    justify-content: space-between;
+  }
+  
+  .userInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .userInfo img {
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .userInfo p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .actions button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .actions button:first-child {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .actions button:first-child:hover {
+    background-color: #0056b3;
+  }
+  
+  .actions button:last-child {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .actions button:last-child:hover {
+    background-color: #c82333;
+  }
+  
